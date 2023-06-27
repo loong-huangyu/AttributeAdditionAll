@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.mistymc.www.mtmc.attributeadditionall</groupId>
+    <version>0.0.29-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-1.12.2</artifactId>
+            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/spigot-1.12.2.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>github.saukiya.sxattribute</groupId>
+            <artifactId>SXAttribute</artifactId>
+            <version>3.6.7-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/SX-Attribute3.jar</systemPath>
+        </dependency>
+    </dependencies>
+    <artifactId>AttributeAdditionAll</artifactId>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+    </properties>
+</project>

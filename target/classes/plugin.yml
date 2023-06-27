@@ -1,0 +1,6 @@
+name: AttributeAdditionAll
+author: rain
+main: cn.mistymc.www.mtmc.attributeadditionall.AttributeAdditionAll
+version: 0.0.1
+depend:
+  - SX-Attribute
